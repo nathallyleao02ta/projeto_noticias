@@ -62,7 +62,6 @@ header nav.mobile{
        transition: 0.7s;
 }
 
-
 .primeira-secao {
     margin-bottom: 4rem;
 }
@@ -168,4 +167,26 @@ header nav.mobile{
     color: var(--gunmetal);
 }
 
+@media(min-width: 1110px) {
 
+
+    header > button {
+        display: none;
+    }
+
+    header .desktop{
+            display: flex;
+            gap: 2.5rem;
+    }
+
+    header .desktop a{
+        font-size: 0.9375rem;
+        line-height: 1.625rem;
+        text-decoration: none;
+        color: var(--gunmetal);
+    }
+
+    header .desktop a:hover {
+        color: var(--vermillion);
+    }
+}
