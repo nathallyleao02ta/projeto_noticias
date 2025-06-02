@@ -125,7 +125,6 @@ header nav.mobile{
     margin-bottom: 0.5rem;
 }
 
-
 .segunda-seção p{
     color: var(--silver);
     font-size: 0.9375rem;
@@ -194,6 +193,23 @@ header nav.mobile{
         font-size: 3.5rem;
     }
 
+     .primeira-seção button:hover {
+        background-color: var(--dark-blue);
+        cursor: pointer;
+    }
+
+    .segunda-seção h2{
+        font-size: 2.5rem;
+    }
+
+    .terceira-seção {
+        display: flex;
+        grid-column: 1 / 4;
+    }
+
+    .terceira-seção h2:hover {
+        color: var(--vermillion);
+
     header > button {
         display: none;
     }
@@ -213,4 +229,5 @@ header nav.mobile{
     header .desktop a:hover {
         color: var(--vermillion);
     }
+  }
 }
