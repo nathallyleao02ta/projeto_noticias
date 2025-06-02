@@ -8,5 +8,4 @@ botaoAbrir.addEventListener('click', abrirMenu)
 
 function abrirMenu() {
   body.
-
 }
